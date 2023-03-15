@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Manrope:wght@800&family=Outfit:wght@300;400;600&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <title>Formulario</title>
+</head>
+<body>
+    <img src="design/bg-repeat.jpg" class="background" alt="bg-repeat">
+    <section class="container">
+        <div class="descritivo" >
+            <h1 class="title">FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM</h1>
+            <p class="paragrafo">caso tenha ficado com qualquer dúvida <br> basta nos mandar uma mensagem e <br> entraremos em contato em menos de 24h.</p>
+        </div>
+        <menu class="box1">
+            <div class="white-box">
+                <div class="container-campo">
+                    <input type="text" id="nome" class="campo" placeholder="Nome Completo *">
+                    <div id="alertaNome" class="alerta">*Campo Obrigatorio</div>
+                </div>
+                
+                <div class="container-campo">
+                    <input type="email" id="email" class="campo" placeholder="Email *">
+                    <div id="alertaEmail" class="alerta">*Campo Obrigatorio</div>
+                </div>
+                
+                <div class="container-campo">
+                    <input type="tel" id="telefone" class="campo" placeholder="Telefone *">
+                    <div id="alertaTelefone" class="alerta">*Campo Obrigatorio</div>
+                </div>
+
+                <div class="container-campo">
+                    <input type="text" id="mensagem" class="campo-mensagem" placeholder="Mensagem *">
+                    <div id="alertaMensagem" class="alerta">*Campo Obrigatorio</div>
+                </div>
+                
+                <div class="container-descritivo-obrigatorio">
+                    <p class="descritivo-campo-obrigatorio">* Campos Obrigatorios</p>
+                </div>
+                <button id="submit" class="btn">Enviar</button>
+            </div>
+        </menu>
+    </section>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
